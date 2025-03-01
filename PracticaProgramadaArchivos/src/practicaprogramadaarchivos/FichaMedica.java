@@ -190,16 +190,22 @@ public class FichaMedica extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
         jLabel1.setText("Nombre");
 
+        jLabel2.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
         jLabel2.setText("Cédula");
 
+        jLabel3.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
         jLabel3.setText("Sintoma");
 
+        jLabel4.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
         jLabel4.setText("Diagnostico");
 
+        jLabel5.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
         jLabel5.setText("Tratamiento");
 
+        btnAgregar.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
         btnAgregar.setText("Agregar");
         btnAgregar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -207,6 +213,7 @@ public class FichaMedica extends javax.swing.JFrame {
             }
         });
 
+        btnConsultaN.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
         btnConsultaN.setText("Consultar por Nombre");
         btnConsultaN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -214,6 +221,7 @@ public class FichaMedica extends javax.swing.JFrame {
             }
         });
 
+        btnConsultaS.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
         btnConsultaS.setText("Consultar por Sintomas");
         btnConsultaS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -221,7 +229,18 @@ public class FichaMedica extends javax.swing.JFrame {
             }
         });
 
+        jLabel6.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
         jLabel6.setText("Paciente:");
+
+        txtRnombre.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
+
+        txtRcedula.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
+
+        txtRsintoma.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
+
+        txtRdiagnostico.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
+
+        txtRtratamiento.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -244,7 +263,7 @@ public class FichaMedica extends javax.swing.JFrame {
                 .addComponent(jLabel6)
                 .addGap(32, 32, 32)
                 .addComponent(txtRnombre)
-                .addGap(35, 35, 35)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(txtRcedula)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(txtRsintoma)
@@ -255,6 +274,7 @@ public class FichaMedica extends javax.swing.JFrame {
                 .addContainerGap(71, Short.MAX_VALUE))
         );
 
+        btnLimpiar.setFont(new java.awt.Font("Kodchasan", 0, 13)); // NOI18N
         btnLimpiar.setText("Limpiar");
         btnLimpiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -298,7 +318,7 @@ public class FichaMedica extends javax.swing.JFrame {
                             .addComponent(btnConsultaN)
                             .addComponent(btnAgregar)
                             .addComponent(btnLimpiar))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 84, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 69, Short.MAX_VALUE)
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(41, 41, 41))))
         );
@@ -334,7 +354,7 @@ public class FichaMedica extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(61, 61, 61)
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(50, Short.MAX_VALUE))
+                .addContainerGap(72, Short.MAX_VALUE))
         );
 
         pack();
